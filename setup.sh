@@ -2,7 +2,7 @@
 
 sudo yum install git -y &>/dev/null
 wget https://github.com/github/hub/releases/download/v2.3.0-pre10/hub-linux-amd64-2.3.0-pre10.tgz &>/dev/null
-tar cf hub-linux-amd64-2.3.0-pre10.tgz 
+tar xf hub-linux-amd64-2.3.0-pre10.tgz 
 cd hub-linux-amd64-2.3.0-pre10
 sudo ./install
 cd 
